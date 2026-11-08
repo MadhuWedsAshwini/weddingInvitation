@@ -4,7 +4,7 @@ window.WEDDING_CONFIG = {
   weddingDateTime: "2026-11-29T08:30:00+05:30",
   // Used by the "Add to calendar" buttons on the last page.
   events: {
-    reception: { title: "Reception — Madhu & Ashwini", start: "2026-11-28T19:30:00+05:30", end: "2026-11-28T22:30:00+05:30" },
+    reception: { title: "Reception — Madhu & Ashwini", start: "2026-11-28T19:00:00+05:30", end: "2026-11-28T22:30:00+05:30" },
     wedding:   { title: "Wedding (Muhurtham) — Madhu & Ashwini", start: "2026-11-29T08:30:00+05:30", end: "2026-11-29T09:30:00+05:30" }
   },
   sharedVenue: {

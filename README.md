@@ -1,4 +1,4 @@
-# Jayanth & Monika — Wedding Invitation
+# Madhu & Ashwini — Wedding Invitation
 
 A mobile-first, six-page wedding invitation designed for GitHub Pages.
 

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en" class="locked">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#35101b">
+  <meta name="color-scheme" content="dark light">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="description" content="A royal wedding invitation celebrating Madhu and Ashwini.">
+  <title>Madhu &amp; Ashwini — Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="progress" id="progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+  <button class="sound-toggle" id="soundToggle" type="button" aria-label="Toggle background music">
+    <span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span id="soundToggleLabel">Music</span>
+  </button>
+
+  <nav class="page-dots" id="pageDots" aria-label="Invitation pages"></nav>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <audio id="bgMusic" loop preload="none"></audio>
+
+  <main>
+    <!-- PAGE 1: Existing approved envelope cover. Its visual structure and styling are retained. -->
+    <section class="cover scene" id="cover" aria-label="Wedding invitation cover">
+      <div class="cover-floral-bg" aria-hidden="true"></div>
+      <img class="cover-watermark" src="assets/images/mj-monogram-gold.png" alt="" aria-hidden="true">
+      <div class="cover-frame">
+        <div class="cover-topline"><span>THE WEDDING CELEBRATION</span><span></span></div>
+        <div class="cover-ornament" aria-hidden="true">❧</div>
+        <p class="cover-kicker">Together with their families</p>
+        <h1 class="cover-names"><span>Madhu</span><em>&amp;</em><span>Ashwini</span></h1>
+        <p class="cover-subtitle">invite you to witness the beginning<br>of their forever</p>
+        <div class="envelope-wrap">
+          <div class="envelope">
+            <div class="envelope-back"></div>
+            <div class="envelope-letter" aria-hidden="true"><span>M</span><i>&amp;</i><span>A</span></div>
+            <div class="envelope-flap"></div>
+            <div class="envelope-front"></div>
+            <div class="seal-shadow"></div>
+            <button class="seal" id="openInvite" type="button" aria-label="Open wedding invitation">
+              <img class="seal-logo" src="assets/images/mj-monogram-gold.png" alt="M and J">
+              <span class="seal-ring"></span>
+            </button>
+          </div>
+        </div>
+        <p class="open-prompt" aria-hidden="true">Tap the seal to open<span>⌄</span></p>
+        <div class="cover-bottom"><span>WITH JOY IN OUR HEARTS</span><b>✦</b><span>WE INVITE YOU</span></div>
+      </div>
+      <div class="cover-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- PAGE 2: Divine blessings and family introduction -->
+    <section class="scene page-family textured-paper" id="family" aria-label="Family introduction">
+      <div class="page-border"></div>
+      <div class="page-content family-content">
+        <p class="eyebrow reveal from-top">WITH THE DIVINE BLESSINGS OF</p>
+        <div class="deity-name reveal from-left">|| Sri Huligina Muradi Prasanna Venkataramana Swamy ||</div>
+        <div class="deity-name2 reveal from-left">|| Sri Kadiri Lakshmi Narasimha Swamy Prasanna ||</div>
+        <div class="ornament-rule reveal"><span></span>✥<span></span></div>
+                <p class="Rathnagiri reveal from-right">Rathnagiri</p>
+        <p class="family-line reveal from-right">Smt. R. Bhuvaneshwari &amp; Sri M. Mohan Kumar</p>
+        <p class="invite-request reveal from-left">cordially invite you to grace the auspicious occasion of the wedding of their beloved son</p>
+        <h2 class="couple-name reveal from-right">Madhu R M<i>&amp;</i> Ashwini L</h2>
+        <p class="daughter-line reveal from-left">Daughter of Smt. Harini<br>&amp; Sri Lakshminarayana</p>
+        <div class="floral-divider reveal">❀ ❧ ❀</div>
+        <p class="blessing-footer reveal">Your gracious presence and blessings<br>will make the occasion truly special</p>
+      </div>
+      <div class="petal-layer" aria-hidden="true"></div>
+      <div class="sparkle-layer" aria-hidden="true"></div>
+</section>
+
+    <!-- PAGE 3: Reception -->
+    <section class="scene page-reception textured-wine" id="reception" aria-label="Reception invitation">
+      <div class="page-border"></div>
+      <div class="reception-halo"></div>
+      <div class="page-content reception-content">
+        <p class="eyebrow reveal from-top">AN EVENING OF JOY &amp; TOGETHERNESS</p>
+        <div class="large-flower reveal">❀</div>
+        <p class="script-heading reveal from-left">Reception</p>
+        <h2 class="gold-heading reveal from-right">Join Us</h2>
+        <p class="reception-copy reveal from-left">Together with our beloved family and friends,<br>we warmly invite you to celebrate our<br>wedding reception.</p>
+        <div class="gold-rule reveal"><span></span>✦<span></span></div>
+        <div class="event-detail reveal from-right">
+          <span class="detail-label">DATE</span>
+          <strong>Saturday, 28th November 2026</strong>
+        </div>
+        <div class="event-detail reveal from-left">
+          <span class="detail-label">TIME</span>
+          <strong>7:30 PM onwards</strong>
+        </div>
+        <div class="venue-plaque reveal from-right">
+          <span class="detail-label">VENUE</span>
+          <strong>Kaveri Kalyana Mantapa<br>Dodballapur</strong>
+        </div>
+        <p class="page-footer reveal">We look forward to celebrating with you</p>
+      </div>
+      <div class="petal-layer" aria-hidden="true"></div>
+      <div class="sparkle-layer" aria-hidden="true"></div>
+</section>
+
+    <!-- PAGE 4: Wedding and Muhurtham -->
+    <section class="scene page-wedding textured-paper" id="wedding" aria-label="Wedding ceremony invitation">
+      <div class="mandap-glow"></div>
+      <div class="page-border"></div>
+      <div class="page-content wedding-content">
+        <p class="eyebrow reveal from-top">THE SACRED UNION</p>
+        <div class="mandap-symbol reveal">✥</div>
+        <p class="script-heading dark reveal from-left">Wedding</p>
+        <p class="wedding-verse reveal from-right">Two hearts, seven vows, and a lifetime together.<br>Join us as we take our seven sacred pheras<br>and begin our forever.</p>
+        <div class="seven-dots reveal" aria-label="Seven sacred vows"><i>✦</i><i>✦</i><i>✦</i><i>✦</i><i>✦</i><i>✦</i><i>✦</i></div>
+        <div class="event-detail dark-detail reveal from-left">
+          <span class="detail-label">DATE</span>
+          <strong>Sunday, 29th November 2026</strong>
+        </div>
+        <div class="muhurtham-plaque reveal from-right">
+          <span class="detail-label">MUHURTHAM</span>
+          <strong>Shubha Dhanur Laghna</strong>
+          <span class="detail-label time-label">AUSPICIOUS TIME</span>
+          <b>8:30 AM – 9:30 AM</b>
+        </div>
+        <p class="page-footer dark-footer reveal">May the divine bless this union</p>
+      </div>
+      <div class="petal-layer" aria-hidden="true"></div>
+      <div class="sparkle-layer" aria-hidden="true"></div>
+</section>
+
+    <!-- PAGE 5: Live countdown and scratch reveal -->
+    <section class="scene page-countdown textured-wine" id="countdown" aria-label="Wedding countdown and hidden message">
+      <div class="page-border"></div>
+      <div class="page-content countdown-content">
+        <p class="eyebrow reveal from-top">THE MOMENT WE HAVE BEEN WAITING FOR</p>
+        <p class="script-heading reveal from-left">Counting down to forever</p>
+        <h2 class="gold-heading reveal from-right">Madhu <i>&amp;</i> Ashwini</h2>
+        <p class="countdown-sub reveal">Until the wedding ceremony begins</p>
+        <div class="countdown-grid reveal">
+          <div class="count-unit"><strong id="days">---</strong><span>DAYS</span></div>
+          <div class="count-unit"><strong id="hours">--</strong><span>HOURS</span></div>
+          <div class="count-unit"><strong id="minutes">--</strong><span>MINUTES</span></div>
+          <div class="count-unit"><strong id="seconds">--</strong><span>SECONDS</span></div>
+        </div>
+        <p class="countdown-date reveal">29 NOVEMBER 2026 <span>✦</span> 8:30 AM IST</p>
+        <div class="scratch-intro reveal">
+          <div class="gold-rule"><span></span>❀<span></span></div>
+          <h3>A Little Surprise for You</h3>
+          <p>There is a heartfelt message hidden beneath.<br>Gently scratch the golden surface to reveal it.</p>
+        </div>
+        <div class="scratch-card reveal" id="scratchCard">
+          <div class="scratch-message" id="scratchMessage" aria-live="polite"></div>
+          <canvas id="scratchCanvas" aria-label="Scratch the gold surface to reveal a personal message"></canvas>
+          <span class="scratch-hint" id="scratchHint">SCRATCH TO REVEAL ✧</span>
+        </div>
+        <p class="page-footer reveal">With love and gratitude</p>
+      </div>
+      <div class="petal-layer" aria-hidden="true"></div>
+      <div class="sparkle-layer" aria-hidden="true"></div>
+</section>
+
+    <!-- PAGE 6: Venue directions. Add exact Google Maps share links in js/config.js. -->
+    <section class="scene page-venues textured-paper" id="venues" aria-label="Venue locations and directions">
+      <div class="page-border"></div>
+      <div class="page-content venues-content">
+        <p class="eyebrow reveal from-top">WE WOULD LOVE TO SEE YOU THERE</p>
+        <p class="script-heading dark reveal from-left">Find Your Way</p>
+        <h2 class="venue-main-title reveal from-right">The Celebrations</h2>
+        <p class="venue-intro reveal">We have saved a place for you.<br>Tap the map link to get directions.</p>
+        <article class="map-card shared-map-card reveal from-left">
+          <div class="map-card-icon">✥</div>
+          <span class="detail-label">ONE PLACE · TWO CELEBRATIONS</span>
+          <h3>Kaveri Kalyana Mantapa</h3>
+          <div class="shared-event"><span class="detail-label">RECEPTION · SATURDAY, 28 NOVEMBER</span><strong>7:30 PM onwards</strong></div>
+          <div class="shared-event"><span class="detail-label">WEDDING · SUNDAY, 29 NOVEMBER</span><strong>8:30 AM – 9:30 AM</strong><small>Shubha Dhanur Laghna</small></div>
+          <p class="map-venue-address" id="sharedVenueAddress">Venue address will be added here.</p>
+          <a class="map-link" id="sharedMapLink" href="#" target="_blank" rel="noopener" aria-disabled="true">OPEN LOCATION IN GOOGLE MAPS <span>↗</span></a>
+          <div class="action-row">
+            <button class="chip" type="button" data-cal="reception">＋ Reception<small>Add to calendar</small></button>
+            <button class="chip" type="button" data-cal="wedding">＋ Wedding<small>Add to calendar</small></button>
+            <button class="chip" type="button" id="copyAddress">⧉ Copy<small>Venue address</small></button>
+            <a class="chip" id="shareWhatsapp" href="#" target="_blank" rel="noopener">✉ Share<small>On WhatsApp</small></a>
+          </div>
+        </article>
+        <div class="venue-closing reveal">Your presence is our greatest blessing</div>
+        <div class="final-monogram">
+          <img src="assets/images/mj-monogram-gold.png"
+               alt="Madhu and Ashwini Wedding Logo">
+        </div>
+      </div>
+</section>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

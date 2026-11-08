@@ -169,8 +169,8 @@ p,h1,h2,h3{margin:0}
 
 /* ---------- Page 2 · Family ---------- */
 .family-content{gap:.55rem}
-.deity-name{font:400 1.0rem/1.0 "Cormorant Garamond",serif;color:#7d2937;text-shadow:0 1px 0 #fff9e8}
-.deity-name2{font:400 1.0rem/1.0 "Cormorant Garamond",serif;color:#7d2937;text-shadow:0 1px 0 #fff9e8}
+.deity-name{font:400 0.8rem/1.0 "Cormorant Garamond",serif;color:#7d2937;text-shadow:0 1px 0 #fff9e8}
+.deity-name2{font:400 0.9rem/1.0 "Cormorant Garamond",serif;color:#7d2937;text-shadow:0 1px 0 #fff9e8}
 .Rathnagiri{font:2.0rem/1.0 "Cormorant Garamond",serif;color:#76513a;max-width:20rem;margin:0.0rem 0 .2rem}
 .family-line{font:1.2rem/1.28 "Cormorant Garamond",serif;color:#76513a;max-width:20rem;margin:.2rem 0 .3rem}
 .invite-request{font:italic 1.12rem/1.45 "Cormorant Garamond",serif;color:#765c46;max-width:21rem}

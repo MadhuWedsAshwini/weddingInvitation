@@ -1,6 +1,6 @@
 /* Edit the event details here. Background music is included in assets/music/. */
 window.WEDDING_CONFIG = {
-  couple: { firstName: "Madhu", secondName: "Ashwini" },
+  couple: { firstName: "Madhu R M", secondName: "Ashwini L" },
   weddingDateTime: "2026-11-29T08:30:00+05:30",
   // Used by the "Add to calendar" buttons on the last page.
   events: {

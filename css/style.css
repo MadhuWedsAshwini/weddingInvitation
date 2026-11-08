@@ -174,7 +174,7 @@ p,h1,h2,h3{margin:0}
 .Rathnagiri{font:2.0rem/1.0 "Cormorant Garamond",serif;color:#76513a;max-width:20rem;margin:0.0rem 0 .2rem}
 .family-line{font:1.2rem/1.28 "Cormorant Garamond",serif;color:#76513a;max-width:20rem;margin:.2rem 0 .3rem}
 .invite-request{font:italic 1.12rem/1.45 "Cormorant Garamond",serif;color:#765c46;max-width:21rem}
-.couple-name{font:400 2.9rem/1.1 "Great Vibes",cursive;color:#7a2637;text-shadow:0 1px 0 #fff8e7;margin:.15rem 0}
+.couple-name{font:400 2.0rem/1.1 "Great Vibes",cursive;color:#7a2637;text-shadow:0 1px 0 #fff8e7;margin:.15rem 0}
 .couple-name i{font:400 .55em "Cormorant Garamond",serif;color:#b18a4e;padding:0 .3rem}
 .daughter-line{font:1.1rem/1.4 "Cormorant Garamond",serif;color:#76513a}
 .floral-divider{font-size:1.3rem;color:#b58a4b;letter-spacing:.25em;margin:.5rem 0 .1rem}
@@ -320,7 +320,7 @@ body.opened .page-dots{opacity:1;transform:translate3d(0,-50%,0);pointer-events:
 /* ---------- Small / short screens ---------- */
 @media (max-width:340px){
   .page-content,.cover-frame{padding-left:1.2rem;padding-right:1.2rem}
-  .cover-topline,.cover-bottom{font-size:.5rem;letter-spacing:.12em;gap:.45rem}
+  .cover-topline,.cover-bottom{font-size:.9rem;letter-spacing:.12em;gap:.45rem}
   .cover-names{font-size:3.8rem}
 }
 @media (max-height:600px){
